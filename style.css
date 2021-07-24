@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(#b1bbb8, #5f5f6d);
+  background-image: url(buildings-1837028.jpg);
+  min-height: 100vh;
+  font-family: "IBM Plex Mono", monospace;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  margin: 0% 30%;
+}
+.title {
+  padding-top: 7rem;
+  margin-bottom: 10%;
+  font-size: 2.5rem;
+}
+.subtitle,
+.billLabel,
+.countryInput,
+.billAmount,
+.placeDropDownClass {
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
+  background: transparent;
+  border: none;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.placeDropDownClass,
+.countryInput {
+  margin: 5% 33%;
+  text-align: center;
+  font-size: 1rem;
+  display: inline-flex;
+}
+.billAmount {
+  border-bottom: 5px solid white;
+  font-size: 1rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="/Tip Calculator/style.css">
+ <title>Tip Calculator</title>
+</head>
+<body>
+ <h1 class="title">Tip Calculator</h1>
+ <h2 class="subtitle">Find out what you should be tipping inline with the local customs.</h2>
+ <label class="billLabel" for="">Bill Amount</label>
+ <input type="number" class="billAmount">
+ <div class="countryInput">
+  <select class="countryInput" name="country">
+   <option>Choose the country</option>
+   <option onclick="countrySwitchBoard('France')">France</option>
+   <option onclick="countrySwitchBoard('Italy')">Italy</option>
+   <option onclick="countrySwitchBoard('United Kingdom')">United Kingdom</option>
+   <option onclick="countrySwitchBoard('United States')">United States</option>
+   <option onclick="countrySwitchBoard('Morocco')">Morocco</option>
+   <option onclick="countrySwitchBoard('United Arab Emirates')">United Arab Emirates</option>
+  </select>
+ </div>
+ <div class="divPlaceDropDown"></div>
+ <div class="divResults"></div>
+
+</body>
+<script src="/Tip Calculator/main.js"></script>
+</html>
