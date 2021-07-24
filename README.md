@@ -1,0 +1,2 @@
+# Tip-Calculator
+(ONLY WORKS ON FIREFOX AT THE MOMENT) Another quick personal project, aiming to practice the linking of functions and write cleaner more readable code. It is a tip calculator which works out different tip rates in a country and then creates a second dropdown menu that has the respective cities/states on it. Only current bug is it only works on Firefox, a problem I shall aim to solve soon.
